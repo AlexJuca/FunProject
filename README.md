@@ -13,9 +13,9 @@ Working with fragments
 
 
 
-![Preview](https://github.com/AlexJuca/YaYa/blob/master/a.png "Preview")
+![Preview](https://github.com/AlexJuca/FunProject/blob/master/a.png "Preview 1")
 
-![Preview](https://github.com/AlexJuca/YaYa/blob/master/b.png "Preview")
+![Preview](https://github.com/AlexJuca/FunProject/blob/master/b.png "Preview 2")
 
 
 
