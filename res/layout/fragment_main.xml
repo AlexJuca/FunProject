@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/as"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.funproject.CourseFragment" >
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/styleColor5"
+        android:gravity="center"
+        android:minHeight="200dp"
+        android:minWidth="200dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/logo_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/alexgravatar" />
+
+        <TextView
+            android:id="@+id/hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Hi"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    
+	<android.support.v4.widget.SwipeRefreshLayout
+	    android:id="@+id/refreshLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentStart="true"
+	    android:layout_below="@+id/profile" >
+
+     <ListView
+         android:id="@android:id/list"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:background="#EDEFF0"
+         android:clipToPadding="false" />
+     
+     	</android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

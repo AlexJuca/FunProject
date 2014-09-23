@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/courseWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/courseWrapperBackground"
+        android:minHeight="140dp"
+        android:minWidth="320dp"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:id="@+id/courseDetailsWrapper"
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/course"
+                android:textColor="@color/courseTextColor"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/courseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/courseTitle"
+                android:textColor="@color/courseTitleTextColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/courseLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/courseLevel"
+                android:textColor="@color/courseLevelColor"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/courseImageWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/styleColor5"
+            android:gravity="right" >
+
+            <ImageView
+                android:id="@+id/courseimage"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:layout_gravity="right"
+                android:src="@drawable/courseimage" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>

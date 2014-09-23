@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="apptheme_color">#53bbb4</color>
+    <color name="background">#EDEFF0</color>
+    <color name="actionbarTextColor">#ffffff</color>
+    <color name="courseWrapperColor">#ffffff</color>
+    <color name="courseTextColor">#8D9AA5</color>
+    <color name="courseTitleTextColor">#0B0D0E</color>
+    <color name="courseLevelColor">#8D9AA5</color>
+    <color name="styleColor1">#F092B0</color>
+    <color name="styleColor2">#53BBB4</color>
+    <color name="styleColor3">#51B46D</color>
+    <color name="styleColor4">#3079AB</color>
+    <color name="styleColor5">#C25975</color>
+    <color name="courseWrapperBackground">#ffffff</color>
+</resources>

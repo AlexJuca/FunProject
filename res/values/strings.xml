@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FunProject</string>
+    <string name="title_section1">Hello</string>
+    <string name="title_section2">Topics</string>
+    <string name="title_section3">Workspace</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">action</string>
+    <string name="action_settings">Settings</string>
+    <string name="course">course</string>
+    <string name="courseTitle">Python Programming</string>
+    <string name="courseLevel">beginner</string>
+    <string name="Hi">Hi! I am Alexandre Juca. I created this demo to show others how to use view animations and other cool stuff.</string>
+    <string name="title_activity_about_alex">About Alexandre</string>
+    <string name="AbouMe">Really simple app demonstrating cool animations and beautiful layout and design. The reason I made this was because I was bored and boredom is a dangerous thing so I decided to use the time on praticing and then share the project so people like you can learn. </string>
+    <string name="createBy">Created by Alexandre Juca</string>
+</resources>
